@@ -16,20 +16,20 @@ app.get('/', function (req, res) {
 
 app.get('/article-one',function(req,res){
     
-   res.Send('Article one is requested and reserver here'); 
+   res.send('Article one is requested and reserver here'); 
     
 });
 
 
 app.get('/article-two',function(req,res){
     
-   res.Send('Article two is requested and reserver here'); 
+   res.send('Article two is requested and reserver here'); 
     
 });
 
 app.get('/article-three',function(req,res){
     
-   res.Send('Article three is requested and reserver here'); 
+   res.send('Article three is requested and reserver here'); 
     
 });
 
